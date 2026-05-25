@@ -1,0 +1,17 @@
+
+> my-v0-project@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.101:3000
+✓ Ready in 433ms
+Creating turbopack project {
+  dir: 'C:\\Users\\kadoo\\OneDrive\\Desktop\\gradvoiceprefinal\\HR-ADVISOR_full-master\\Frontend',
+  testMode: true
+}
+
+ GET / 200 in 636ms (next.js: 149ms, application-code: 487ms)
+ GET /api/voice/health 200 in 548ms (next.js: 520ms, application-code: 29ms)
+ GET /api/analyze_cv 405 in 27ms (next.js: 24ms, application-code: 3ms)
+ GET / 200 in 154ms (next.js: 11ms, application-code: 143ms)

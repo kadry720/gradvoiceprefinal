@@ -1,0 +1,26 @@
+=== HR Advisor Voice Agent — Azure ===
+  LLM : gpt-4.1  (2025-01-01-preview)
+  STT : gpt-4o-transcribe  (2025-03-01-preview)
+  TTS : gpt-4o-mini-tts  voice=alloy
+  WebRTC runtime available: True
+  Host: 0.0.0.0:5000
+  Context JSON path: C:\Users\kadoo\OneDrive\Desktop\gradvoiceprefinal\HR-ADVISOR_full-master\Backend\runtime\voice_context\current_context.json
+  CTX : 3216 chars loaded from context documents
+
+Endpoints:
+  GET  /health          — liveness check
+  GET  /status          — service details
+  POST /context/json    — push runtime JSON context
+  POST /chat            — main voice chat
+  POST /transcribe      — STT only
+  POST /synthesize      — TTS only
+  GET  /speaking_status — barge-in state
+  POST /interrupt       — barge-in signal
+  POST /webrtc/connect  — WebRTC SDP answer
+  POST /webrtc/session/<id>/interrupt — WebRTC barge-in
+  POST /webrtc/session/<id>/close     — close WebRTC session
+  GET  /webrtc/session/<id>/status    — WebRTC diagnostics
+======================================
+
+ * Serving Flask app 'agent'
+ * Debug mode: off

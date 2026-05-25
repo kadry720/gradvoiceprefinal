@@ -1,0 +1,8 @@
+Loading Flair NER model...
+2026-05-18 07:56:21,186 SequenceTagger predicts: Dictionary with 20 tags: <unk>, O, S-ORG, S-MISC, B-PER, E-PER, S-LOC, B-ORG, E-ORG, I-PER, S-PER, B-MISC, I-MISC, E-MISC, I-ORG, B-LOC, E-LOC, I-LOC, <START>, <STOP>
+Model loaded successfully.
+[backend_server] Starting on http://127.0.0.1:5001 (POST /analyze)
+ * Serving Flask app 'backend_server'
+ * Debug mode: on
+Loading Flair NER model...
+2026-05-18 07:56:35,780 SequenceTagger predicts: Dictionary with 20 tags: <unk>, O, S-ORG, S-MISC, B-PER, E-PER, S-LOC, B-ORG, E-ORG, I-PER, S-PER, B-MISC, I-MISC, E-MISC, I-ORG, B-LOC, E-LOC, I-LOC, <START>, <STOP>
