@@ -1,0 +1,255 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GradVoice product banner</title>
+  <desc id="desc">A polished dashboard-style banner showing CV analysis, match scoring, and live voice screening for GradVoice.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+
+    <radialGradient id="glowViolet" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(274 150) rotate(43) scale(590 340)">
+      <stop stop-color="#7C5CFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1244 238) rotate(139) scale(540 320)">
+      <stop stop-color="#10BBD5" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#10BBD5" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="surface" x1="220" y1="140" x2="1450" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172033" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0C1321" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <linearGradient id="surfaceSoft" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8B6CFF"/>
+      <stop offset="0.5" stop-color="#18C7D4"/>
+      <stop offset="1" stop-color="#49E39F"/>
+    </linearGradient>
+
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#F8B84E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="34" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+
+    <clipPath id="screenClip">
+      <rect x="595" y="152" width="770" height="596" rx="34"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#glowViolet)"/>
+  <rect width="1600" height="900" fill="url(#glowCyan)"/>
+
+  <g opacity="0.18">
+    <circle cx="127" cy="128" r="2" fill="#DCE7FF"/>
+    <circle cx="1470" cy="143" r="2" fill="#DCE7FF"/>
+    <circle cx="1452" cy="724" r="2" fill="#DCE7FF"/>
+    <circle cx="224" cy="710" r="2" fill="#DCE7FF"/>
+    <circle cx="1372" cy="470" r="1.5" fill="#9CE8F4"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="126" y="98" width="1348" height="704" rx="46" fill="#0A0F1D" fill-opacity="0.68" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="126.5" y="98.5" width="1347" height="703" rx="45.5" fill="url(#surface)" fill-opacity="0.4"/>
+  </g>
+
+  <g transform="translate(188 160)">
+    <g>
+      <rect width="58" height="58" rx="16" fill="url(#accent)"/>
+      <path d="M18 30.2C18 20.2 25.2 13.6 35.5 13.6C41.4 13.6 46 15.9 49 19.7L43.3 25C41.5 22.9 39.2 21.6 35.8 21.6C30.3 21.6 26.3 25.2 26.3 30.2C26.3 35.5 30.3 39 36.1 39C38.6 39 41.1 38.4 42.8 37.2V33.8H35V27.2H50.5V40.9C47.1 44.2 41.8 47 35.7 47C25.2 47 18 40.3 18 30.2Z" fill="#08111F"/>
+    </g>
+
+    <text x="0" y="132" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="74" font-weight="760" letter-spacing="-2">
+      GradVoice
+    </text>
+    <text x="2" y="180" fill="#B8C4D9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="500">
+      AI recruitment intelligence
+    </text>
+    <text x="2" y="218" fill="#B8C4D9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="500">
+      for modern hiring workflows.
+    </text>
+
+    <g transform="translate(0 270)">
+      <rect width="176" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <circle cx="26" cy="22" r="7" fill="#49E39F"/>
+      <text x="44" y="28" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="680">
+        CV Analyzer
+      </text>
+
+      <rect x="194" width="180" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <circle cx="220" cy="22" r="7" fill="#18C7D4"/>
+      <text x="238" y="28" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="680">
+        Voice Agent
+      </text>
+
+      <rect y="60" width="176" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <circle cx="26" cy="82" r="7" fill="#F8B84E"/>
+      <text x="44" y="88" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="680">
+        Azure OpenAI
+      </text>
+    </g>
+
+    <g transform="translate(0 390)">
+      <rect width="370" height="118" rx="26" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.11"/>
+      <text x="26" y="42" fill="#91A0B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="650">
+        HIRING WORKFLOW
+      </text>
+      <text x="26" y="82" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="760">
+        Score, interview, review
+      </text>
+      <rect x="26" y="96" width="318" height="2" rx="1" fill="#FFFFFF" fill-opacity="0.08"/>
+      <rect x="26" y="96" width="246" height="2" rx="1" fill="url(#accent)"/>
+    </g>
+  </g>
+
+  <g clip-path="url(#screenClip)" filter="url(#shadow)">
+    <rect x="595" y="152" width="770" height="596" rx="34" fill="#0B1220" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <rect x="596" y="153" width="768" height="64" fill="#111A2B"/>
+    <circle cx="632" cy="185" r="6" fill="#F87171"/>
+    <circle cx="654" cy="185" r="6" fill="#FBBF24"/>
+    <circle cx="676" cy="185" r="6" fill="#34D399"/>
+    <rect x="716" y="172" width="260" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <text x="736" y="190" fill="#97A6BE" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="620">
+      gradvoice.app/analyzer
+    </text>
+
+    <g transform="translate(628 250)">
+      <rect width="300" height="204" rx="26" fill="url(#surfaceSoft)" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <text x="24" y="38" fill="#91A0B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="720">
+        CANDIDATE FIT
+      </text>
+      <text x="24" y="85" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="54" font-weight="800" letter-spacing="-1">
+        86%
+      </text>
+      <rect x="24" y="112" width="132" height="34" rx="17" fill="#34D399" fill-opacity="0.14" stroke="#34D399" stroke-opacity="0.35"/>
+      <text x="42" y="134" fill="#9CF6C5" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="720">
+        Strong match
+      </text>
+      <circle cx="232" cy="100" r="54" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="14"/>
+      <circle cx="232" cy="100" r="54" stroke="url(#accent)" stroke-width="14" stroke-linecap="round" stroke-dasharray="292 340" transform="rotate(-90 232 100)"/>
+    </g>
+
+    <g transform="translate(958 250)">
+      <rect width="374" height="204" rx="26" fill="url(#surfaceSoft)" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <text x="24" y="38" fill="#91A0B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="720">
+        LIVE VOICE SCREEN
+      </text>
+      <rect x="24" y="60" width="122" height="34" rx="17" fill="#18C7D4" fill-opacity="0.12" stroke="#18C7D4" stroke-opacity="0.32"/>
+      <circle cx="45" cy="77" r="6" fill="#18C7D4"/>
+      <text x="60" y="82" fill="#B9F5FB" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="720">
+        Listening
+      </text>
+      <g transform="translate(28 126)">
+        <rect x="0" y="24" width="8" height="32" rx="4" fill="#18C7D4"/>
+        <rect x="18" y="8" width="8" height="64" rx="4" fill="#7C5CFF"/>
+        <rect x="36" y="18" width="8" height="44" rx="4" fill="#49E39F"/>
+        <rect x="54" y="0" width="8" height="80" rx="4" fill="#18C7D4"/>
+        <rect x="72" y="16" width="8" height="48" rx="4" fill="#7C5CFF"/>
+        <rect x="90" y="28" width="8" height="24" rx="4" fill="#49E39F"/>
+        <rect x="108" y="10" width="8" height="60" rx="4" fill="#18C7D4"/>
+        <rect x="126" y="22" width="8" height="36" rx="4" fill="#7C5CFF"/>
+        <rect x="144" y="4" width="8" height="72" rx="4" fill="#49E39F"/>
+        <rect x="162" y="20" width="8" height="40" rx="4" fill="#18C7D4"/>
+        <rect x="180" y="30" width="8" height="20" rx="4" fill="#7C5CFF"/>
+        <rect x="198" y="14" width="8" height="52" rx="4" fill="#49E39F"/>
+        <rect x="216" y="24" width="8" height="32" rx="4" fill="#18C7D4"/>
+        <rect x="234" y="9" width="8" height="62" rx="4" fill="#7C5CFF"/>
+        <rect x="252" y="18" width="8" height="44" rx="4" fill="#49E39F"/>
+        <rect x="270" y="30" width="8" height="20" rx="4" fill="#18C7D4"/>
+        <rect x="288" y="12" width="8" height="56" rx="4" fill="#7C5CFF"/>
+      </g>
+    </g>
+
+    <g transform="translate(628 484)">
+      <rect width="704" height="218" rx="28" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <text x="26" y="42" fill="#91A0B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="720">
+        ATS REPORT
+      </text>
+
+      <g transform="translate(26 70)">
+        <text x="0" y="0" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="680">
+          Technical skills
+        </text>
+        <rect x="0" y="18" width="284" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.08"/>
+        <rect x="0" y="18" width="252" height="10" rx="5" fill="url(#accent)"/>
+        <text x="324" y="28" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="760">
+          92
+        </text>
+      </g>
+
+      <g transform="translate(26 120)">
+        <text x="0" y="0" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="680">
+          Experience fit
+        </text>
+        <rect x="0" y="18" width="284" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.08"/>
+        <rect x="0" y="18" width="220" height="10" rx="5" fill="url(#amber)"/>
+        <text x="324" y="28" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="760">
+          78
+        </text>
+      </g>
+
+      <g transform="translate(26 170)">
+        <text x="0" y="0" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="680">
+          Communication
+        </text>
+        <rect x="0" y="18" width="284" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.08"/>
+        <rect x="0" y="18" width="238" height="10" rx="5" fill="#18C7D4"/>
+        <text x="324" y="28" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="760">
+          88
+        </text>
+      </g>
+
+      <g transform="translate(430 63)">
+        <rect width="232" height="44" rx="18" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+        <circle cx="24" cy="22" r="7" fill="#49E39F"/>
+        <text x="42" y="27" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="680">
+          Evidence-based scoring
+        </text>
+
+        <rect y="60" width="232" height="44" rx="18" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+        <circle cx="24" cy="82" r="7" fill="#18C7D4"/>
+        <text x="42" y="87" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="680">
+          Interview-ready context
+        </text>
+
+        <rect y="120" width="232" height="44" rx="18" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+        <circle cx="24" cy="142" r="7" fill="#F8B84E"/>
+        <text x="42" y="147" fill="#DCE7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="680">
+          Recruiter review notes
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="1084" y="668" width="282" height="112" rx="28" fill="#101827" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="1110" y="707" fill="#91A0B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="720">
+      OUTPUT
+    </text>
+    <text x="1110" y="744" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="760">
+      Structured hiring insight
+    </text>
+  </g>
+</svg>

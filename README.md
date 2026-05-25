@@ -10,7 +10,7 @@ AI-powered recruitment intelligence for CV screening, job-fit scoring, and live 
 ![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-GPT--4.1-0078D4?logo=microsoftazure&logoColor=white)
 
 <p align="center">
-  <img src="Frontend/public/hero_Grad_section.png" alt="GradVoice product interface" width="100%">
+  <img src="docs/assets/gradvoice-readme-hero.svg" alt="GradVoice product banner" width="100%">
 </p>
 
 ## Overview
